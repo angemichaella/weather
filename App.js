@@ -72,7 +72,7 @@ export default class App extends React.Component{
       >
         <StatusBar barStyle='light-content'/>
         <ImageBackground
-          source = {getImageForWeather(weather)}
+          source = {getImageForWeather('Clear')} // getImageForWeather(weather)
           style = {styles.imageContainer}
           imageStyle = {styles.image}
         >
